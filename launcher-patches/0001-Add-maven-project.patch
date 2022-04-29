@@ -1,4 +1,4 @@
-From 6c30735ff3af033dabcd4a5dbb2b0297206393af Mon Sep 17 00:00:00 2001
+From b35615d0257a50e7f1f8e18ccb22b16e6d558627 Mon Sep 17 00:00:00 2001
 From: bigfoot547 <bigfoot@figboot.dev>
 Date: Thu, 10 Mar 2022 01:37:59 -0600
 Subject: [PATCH] Add maven project
@@ -314,10 +314,10 @@ index aef7cf0..0000000
 -
 diff --git a/pom.xml b/pom.xml
 new file mode 100644
-index 0000000..7a17615
+index 0000000..b8a1b9a
 --- /dev/null
 +++ b/pom.xml
-@@ -0,0 +1,434 @@
+@@ -0,0 +1,428 @@
 +<?xml version="1.0" encoding="UTF-8"?>
 +
 +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -397,12 +397,6 @@ index 0000000..7a17615
 +                    <filters>
 +                        <filter>
 +                            <artifact>*log4j*:*log4j*</artifact>
-+                            <includes>
-+                                <include>**</include>
-+                            </includes>
-+                        </filter>
-+                        <filter>
-+                            <artifact>*lwjgl*:*lwjgl*</artifact>
 +                            <includes>
 +                                <include>**</include>
 +                            </includes>
